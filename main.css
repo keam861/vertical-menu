@@ -2,11 +2,28 @@
   margin: 0 auto;  
   width: 720px;
 }
-
-nav {
+#flip {
   position: fixed;
   background-color: #aaa;
   left: 0;
+  width: 50px;
+  border-right: 2px gray;
+  height: 100%; 
+}
+.btn {
+  position: absolute;
+  right: 10px;
+  top:0;
+}
+/*button {
+  position: relative;
+  right: 5px;
+}*/
+nav {
+  /*display: none;*/
+  position: fixed;
+  background-color: #aaa;
+  left: -150px;
   width: 150px;
   border-right: 2px gray;
   height: 100%; 
@@ -14,7 +31,6 @@ nav {
 
 ul {
   padding-left: 0;
-
 }
 
 nav ul li{

@@ -8,6 +8,8 @@
 
   <!-- Esto especifica que podamos utilizar acentos dentro del HTML  -->
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="script.js"></script>
 
   <!-- Esto especifica que podamos utilizar acentos dentro del HTML  -->
   <link rel="stylesheet" href="main.css">
@@ -15,16 +17,22 @@
 </head>
 <body>
   <div class="container">
+
+  <div id="menu">
+    <div id="flip">
+      <button id="show_btn" class="btn">+</button>
+    </div>
     <nav>
       <ul>
+        <button id ="hide_btn" class="btn">x</button>
         <li><a href="#">Inicio</a></li>
         <li><a href="#que_hacemos">Que Hacemos</a></li>   
         <li><a href="#pricing">Precios</a></li>
         <li><a href="#about">Nosotros</a></li>
         <li><a href="#contact">Contacto</a></li>
       </ul>
-      <br clear="all">
     </nav>
+  </div>
 
     <div class="content">
       <header>
